@@ -7,21 +7,21 @@ $mahasiswa = [
         "nim" => "202210040311423",
         "jurusan" => "Ilmu Komunikasi",
         "email" => "aden@gmail.com",
-        "profil" => "aden.jpg"
+        "profil" => "https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/profile/profile-5.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1675046567302"
     ],
     [
         "nama" => "Muhhammad Fajar Hidayat Setiamukti",
         "nim" => "202210040311417",
         "jurusan" => "Ilmu Komunikasi",
         "email" => "fajar@gmail.com",
-        "profil" => "fajar.jpg"
+        "profil" => "https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/profile/profile-4.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1675046567134"
     ],
     [
         "nim" => "202210040311418",
         "nama" => "Jajang Bahroni Wicaksono Siek Lai Hong",
         "jurusan" =>"Ilmu Komunikasi",
         "email" => "lhg@gmail.com",
-        "profil" => "jajang.jpg"
+        "profil" => "https://ik.imagekit.io/YxqeaZrcDev/MAFIFEST/profile/profile-3.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1675046567139"
     ]
     ];
 ?>
@@ -81,7 +81,7 @@ $mahasiswa = [
                     <div class="row align-items-center bg-white bordered-hover rounded-4 px-3 py-4">
                         <div class="col-md-4">
                             <section class="text-center">
-                                <img src="https://php-vercel.gembiraloka.cloud/img/<?= $mhs["profil"]; ?>" class="img-be-responsive rounded-circle">
+                                <img src="<?= $mhs["profil"]; ?>" class="img-be-responsive rounded-circle">
                             </section>
                         </div>
                         <div class="col-md-8">
