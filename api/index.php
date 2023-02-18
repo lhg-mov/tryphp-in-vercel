@@ -81,7 +81,7 @@ $mahasiswa = [
                     <div class="row align-items-center bg-white bordered-hover rounded-4 px-3 py-4">
                         <div class="col-md-4">
                             <section class="text-center">
-                                <img src="./img/<?= $mhs["profil"]; ?>" class="img-be-responsive rounded-circle">
+                                <img src="https://php-vercel.gembiraloka.cloud/api/img/<?= $mhs["profil"]; ?>" class="img-be-responsive rounded-circle">
                             </section>
                         </div>
                         <div class="col-md-8">
